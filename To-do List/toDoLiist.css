@@ -1,0 +1,121 @@
+body {
+  padding-top: 5%;
+}
+
+#color {
+  background: linear-gradient(90deg, #3399ff, #33ccff, #00ffff);
+}
+
+#minus {
+  padding-left: 15%;
+}
+
+#plus {
+  padding-left: 15%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+	vertical-align: -500%;
+}
+
+#addText {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.transition {
+	transition: all 1.0s;
+	-webkit-transition: all 1.0s;
+	-moz-transition: all 1.0s;
+}
+
+h1 {
+  color: white;
+  background-color: #2364aa;
+  margin-bottom: 0px;
+  text-align: left;
+  padding: 2%;
+	border-radius: 10px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.overRide {
+  list-style-type: none;
+  text-align: left;
+  padding: 10px;
+}
+
+input {
+  width: 96%;
+  height: 30px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+  padding-left: 11px;
+  border: 0;
+}
+
+.parent {
+  float: left;
+  background-color: red;
+  background-position: left;
+  /*width: 5%;
+	height: 5%;*/
+  padding: 5px;
+  padding-left: 20px;
+  margin-left: 0;
+  margin-right: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+
+.borders {
+	border-left: 10px white solid;
+	border-top: 5px white solid;
+}
+
+.lis {
+  list-style-type: none;
+  height: 30px;
+  font-weight: 400;
+	margin: 0 auto;
+	text-align: left;
+	border-bottom-left-radius: 10px;
+}
+
+#trash {
+	margin-right: 15px;
+}
+
+
+.markedDone {
+  text-decoration: line-through;
+}
+
+/* ----------- BODY -----------------*/
+
+#container {
+  background-color: white;
+  /*padding-bottom: 20%;*/
+  text-align: center;
+  width: 30%;
+  height: 30%;
+  max-width: 300px;
+  min-width: 300px;
+  margin: 0 auto;
+	border-radius: 10px;
+  font-family: 'Orbitron', sans-serif;
+  /* hides the blue background color when copying text */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  /* Webkit */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE 10  */
+  /* Currently not supported in Opera but will be soon */
+  -o-user-select: none;
+  user-select: none;
+}

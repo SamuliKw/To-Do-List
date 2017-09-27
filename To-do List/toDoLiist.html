@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TO-DO LIST</title>
+	<link rel="stylesheet" type="text/css" href="toDoLiist.css">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900|Varela+Round" rel="stylesheet">
+	<link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+</head>
+<body id="color">
+	<div id="container">
+		<h1><span id="toDoText">TO-DO LIST<i id="minus" class="fa fa-minus-circle" aria-hidden="true"></i></h1>
+		<form onsubmit="writeToDo(event)">
+			<input type="text" name="uIInput" id="addText" autocomplete="off" placeholder="Add new to-do">
+		</form>
+		<!-- To Do List -->
+		<ul id="uI">
+			
+		</ul>
+	</div>
+	<script type="text/javascript" src="toDoLiist.js"></script>
+</body>
+</html>
